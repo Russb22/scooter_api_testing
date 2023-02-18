@@ -1,4 +1,4 @@
-package org.example.courier;
+package example.courier;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

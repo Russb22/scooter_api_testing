@@ -1,9 +1,10 @@
-package org.example.order;
+package example.order;
 
 import io.restassured.response.Response;
 
+import static java.net.HttpURLConnection.HTTP_CREATED;
+import static java.net.HttpURLConnection.HTTP_OK;
 import static org.hamcrest.CoreMatchers.notNullValue;
-import static java.net.HttpURLConnection.*;
 
 public class OrderChecks {
     public void orderCreatedSuccessfully(Response response){
