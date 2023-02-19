@@ -1,8 +1,8 @@
-package org.example.order;
+package example.order;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.example.courier.CourierClient;
+import example.courier.CourierClient;
 
 import static io.restassured.RestAssured.given;
 

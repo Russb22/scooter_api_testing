@@ -1,10 +1,10 @@
-package org.example.courier;
+package example.courier;
 
 import io.restassured.response.Response;
 
+import static java.net.HttpURLConnection.*;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;
-import static java.net.HttpURLConnection.*;
 
 public class CourierChecks {
     public void createdSuccessfully(Response response){
